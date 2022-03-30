@@ -1,0 +1,32 @@
+字元是用單引號
+字串是用雙引號
+
+寫字元或字串是用char
+char 陣列名稱[陣列大小]="food";
+char 陣列名稱[陣列大小]='f';
+
+中括號裡的陣列大小部分可寫可不寫
+不寫的話就會自行判定後面字元或字串的長度大小
+
+%c是顯示字元，後面陣列名稱一定要加中括號[]
+%s是顯示字串，後面只打陣列名稱就好了，不要加中括號[]
+
+
+char str[]={'g','o'};	//用單引號需要外加大括號
+printf("%c",str[0]);	顯示:g	//%c改%s就不會顯示了
+
+char str[]={'g','o'};
+printf("%s",str);	顯示:go 
+
+char str[]="good";
+printf("%s",str);	顯示:good
+
+char str[]="good";
+printf("%c",str[0]);	顯示:g
+
+儲存多個字串
+https://www.youtube.com/watch?v=dhDnbF1sFBI
+https://www.delftstack.com/zh-tw/howto/c/array-of-strings-in-c/
+
+
+
